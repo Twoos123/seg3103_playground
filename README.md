@@ -30,8 +30,8 @@ The motivation behind creating this testing suite is to provide students and dev
 ## Installation
 To install the testing suite, clone the repository and install the necessary dependencies for Java, Python, and Elixir.
 
-git clone https://github.com/your-username/SEG3103-testing-suite.git
-cd SEG3103-testing-suite
+git clone https://github.com/Twoos123/seg3103_playground.git
+cd seg3103_playground
 # Follow specific installation instructions for each language
 
 ## API Reference
