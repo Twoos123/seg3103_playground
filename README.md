@@ -1,57 +1,62 @@
-# SEG3103 Testing Suite
+# seg3103_playground
 
 ## Synopsis
 
-This repository contains a comprehensive testing suite designed for validating Java, Python, and Elixir code. It aims to ensure the highest quality standards for software development projects. The suite is easily integrable with continuous integration systems and provides a robust foundation for test-driven development practices.
+This repository will hold my lab work for course SEG 3103 Software Quality Assurance. All contributions are made by Asad Ali.
 
 ## Code Example
 
-# Java code example
-public class Calculator {
-    public int add(int a, int b) {
-        return a + b;
-    }
-}
+assets: Holds screenshots from lab excercises.
 
-# Python code example
-def add(a, b):
-    return a + b
+newmath_ex: Contains a division function written in Elixir which requests a numerator and denominator from a user and then displays the result of a division operation. Ther are also files test files inculded to test the division function using ExUnit testing.
 
-# Elixir code example
-defmodule Calculator do
-  def add(a, b) do
-    a + b
-  end
-end
+
+![alt text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/elx_run.png)
+
+![alt text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/elx_test.png)
+
+
+
+newmath_java: Contains a division function written in Java which requests a numerator and denominator from a user and then displays the result of a division operation. Ther are also files test files inculded to test the division function using JUnit testing.
+
+![alt_text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/java_run.png)
+
+![alt_text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/java_test.png)
+
+
+newmath_py: Contains a division function written in Python which requests a numerator and denominator from a user and then displays the result of a division operation. Ther are also files test files inculded to test the division function using Pyunit testing.
+
+![alt_text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/py_run.png)
+
+![alt_text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/py_test.png)
 
 ## Motivation
-The motivation behind creating this testing suite is to provide students and developers with a reliable tool for ensuring their code is error-free and adheres to the highest quality standards. This suite is part of the SEG3103 curriculum to instill best practices in software testing among future software engineers.
+
+The work in this repository is completed as part of the coursework for SEG 3103 at the University of Ottawa
+
 
 ## Installation
-To install the testing suite, clone the repository and install the necessary dependencies for Java, Python, and Elixir.
 
-git clone https://github.com/Twoos123/seg3103_playground.git
-cd seg3103_playground
-# Follow specific installation instructions for each language
+This repository can be cloned to your local machine.
 
 ## API Reference
-The API reference documentation can be found in the docs directory. For a more detailed API reference, please visit API Documentation.
+
+Elixer Documentation: https://hexdocs.pm/elixir/Kernel.html
+
+ExUnit Documentation: https://hexdocs.pm/ex_unit/ExUnit.html
+
+Java Documentation: https://docs.oracle.com/en/java/
+
+JUnit Documentation: https://junit.org/junit5/
+
+Python Documentation: https://www.python.org/
+
+PyUnit Documentation: https://wiki.python.org/moin/PyUnit
 
 ## Tests
-To run the tests, navigate to the respective language directory and execute the test command:
 
-# For Java
-mvn test
-
-# For Python
-pytest
-
-# For Elixir
-mix test
+Tests are ran by executing the "./bin/test" command in a bash terminal from either the newmath_ex, newmath_py, or newmath_java directory. Examples of the command use can be found in the **assets** folder
 
 ## Contributors
-Contributions are welcome! Please read the CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
+Asad Ali, 2024
