@@ -1,56 +1,20 @@
-## Code Example
-
-assets: Holds screenshots from lab excercises.
-
-newmath_ex: Contains a division function written in Elixir which requests a numerator and denominator from a user and then displays the result of a division operation. Ther are also files test files inculded to test the division function using ExUnit testing.
-
-
-![alt text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/elx_run.png)
-
-![alt text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/elx_test.png)
-
-
-
-newmath_java: Contains a division function written in Java which requests a numerator and denominator from a user and then displays the result of a division operation. Ther are also files test files inculded to test the division function using JUnit testing.
-
-![alt_text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/java_run.png)
-
-![alt_text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/java_test.png)
+## Exercise 1
+Below is the table of the test cases' results for the registration program
+Test Case  | Expected Results               | Actual Results                | Verdict
+---------- | ------------------------------ | ----------------------------- | ----------
+1          | registration request accepted  | registration request accepted | Pass
+2          | registration request accepted  | registration request accepted | Pass
+3          | registration request accepted  | registration request accepted | Pass
+4          | registration request accepted  | registration request accepted | Pass
+5          | Err1                           | Err1 & Err3                   | Fail
+6          | Err3                           | Err3                          | Pass
+7          | Err3                           | Err3                          | Pass
+8          | Err1                           | Err1                          | Pass
 
 
-newmath_py: Contains a division function written in Python which requests a numerator and denominator from a user and then displays the result of a division operation. Ther are also files test files inculded to test the division function using Pyunit testing.
+## Exercise 2
+Screenshots of the test results:
 
-![alt_text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/py_run.png)
+![Screen Shot 2021-05-27 at 7 12 15 PM](https://user-images.githubusercontent.com/55165979/119907959-7f908080-bf1f-11eb-8fa4-65d7151500b4.png)
 
-![alt_text](https://github.com/Twoos123/seg3103_playground/blob/6c0d032ad2e91df8de072250135afa1165d26c8a/assets/py_test.png)
-
-## Motivation
-
-The work in this repository is completed as part of the coursework for SEG 3103 at the University of Ottawa
-
-
-## Installation
-
-This repository can be cloned to your local machine.
-
-## API Reference
-
-Elixer Documentation: https://hexdocs.pm/elixir/Kernel.html
-
-ExUnit Documentation: https://hexdocs.pm/ex_unit/ExUnit.html
-
-Java Documentation: https://docs.oracle.com/en/java/
-
-JUnit Documentation: https://junit.org/junit5/
-
-Python Documentation: https://www.python.org/
-
-PyUnit Documentation: https://wiki.python.org/moin/PyUnit
-
-## Tests
-
-Tests are ran by executing the "./bin/test" command in a bash terminal from either the newmath_ex, newmath_py, or newmath_java directory. Examples of the command use can be found in the **assets** folder
-
-## Contributors
-
-Asad Ali, 2024
+![Screen Shot 2021-05-27 at 7 12 22 PM](https://user-images.githubusercontent.com/55165979/119907967-83240780-bf1f-11eb-82f4-6b30cdaff35d.png)
