@@ -7,4 +7,8 @@ Professor | Andrew Forward aforward@uottawa.ca
 TA | Amirhossein Ghadami amirhossein.ghadami@uottawa.ca
 Team | Asad Ali 300118868
 
-Cannot get it to run without bookstore jar, github wont let me upload it as it is too big, no screenshots but the code is finished.
+Screenshot after running `mvn compile`
+![mvn_compile](https://user-images.githubusercontent.com/55165979/125716650-0f61510f-3c3d-41f3-8f1b-069fa5d74f36.png)
+
+After the test case was added and I ran `mvn test`, these are the test results
+![admin_test_results_pass](https://user-images.githubusercontent.com/55165979/125716640-284638f7-88c0-49cf-99df-42de60e5c1ce.png)
