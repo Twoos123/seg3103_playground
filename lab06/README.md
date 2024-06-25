@@ -7,6 +7,8 @@ Professor | Andrew Forward aforward@uottawa.ca
 TA | Zahra Kakavand zkaka044@uottawa.ca
 Team | Asad Ali 300118868
 
+cant add BookstoreApp-0.1.0.jar
+
 Screenshot after running `mvn compile`
 ![mvn_compile](https://user-images.githubusercontent.com/55165979/125716650-0f61510f-3c3d-41f3-8f1b-069fa5d74f36.png)
 
