@@ -6,3 +6,5 @@ Date | July 25, 2024
 Professor | Andrew Forward aforward@uottawa.ca
 TA | Amirhossein Ghadami amirhossein.ghadami@uottawa.ca
 Team | Asad Ali 300118868
+
+Cannot get it to run without bookstore jar, github wont let me upload it as it is too big, no screenshots but the code is finished.
